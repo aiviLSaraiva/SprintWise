@@ -1,41 +1,32 @@
-# Como contribuir com o SprintWise
+# Como trabalhar no SprintWise
 
-Estas orientações ajudam os três integrantes a trabalhar no mesmo repositório sem sobrescrever alterações uns dos outros.
+Este arquivo explica como as três integrantes podem trabalhar no mesmo GitHub sem misturar alterações.
 
-## Fluxo recomendado
+## Branches
 
-1. Atualize sua cópia local a partir da branch `main`.
-2. Crie uma branch para uma tarefa específica.
-3. Faça alterações pequenas e relacionadas ao objetivo da branch.
-4. Execute os testes disponíveis antes de enviar.
-5. Abra um Pull Request para `main`, descrevendo o que mudou e quais requisitos atende.
-6. Peça revisão de outro integrante e resolva os comentários antes de integrar.
+- **main:** versão principal do projeto, onde o trabalho integrado ficará.
+- **branch individual:** espaço de trabalho de cada integrante, criado a partir da estrutura comum do projeto.
 
-## Nome de branches
+Cada integrante deve fazer suas alterações na própria branch e evitar trabalhar diretamente na `main`.
 
-Use nomes curtos e descritivos, por exemplo:
+## Passos para enviar uma alteração
 
-- `feat/cadastro-disciplinas`
-- `feat/gestao-tarefas`
-- `feat/eventos-academicos`
-- `feat/analise-risco`
-- `feat/persistencia-arquivos`
-- `docs/relatorio`
-- `fix/validacao-prazo`
+1. Abra sua branch no GitHub.
+2. Faça as alterações da sua parte.
+3. Confira os arquivos antes de salvar as mudanças.
+4. Quando terminar uma parte, abra um **Pull Request** para a `main`.
+5. Outra integrante confere as alterações.
+6. Depois da revisão, a equipe pode integrar o Pull Request.
 
-## Mensagens de commit
+## Cuidados
 
-Prefira mensagens objetivas, por exemplo:
+- Não apague ou altere o trabalho de outra integrante sem conversar com ela.
+- Não envie arquivos temporários ou dados pessoais.
+- Se mudar uma regra do projeto, confira a proposta e converse com a equipe.
+- Escreva mensagens de commit curtas, dizendo o que foi alterado.
+
+Exemplos:
 
 - `feat: cadastrar disciplinas`
-- `fix: validar prazo de tarefa`
-- `test: cobrir cálculo de progresso`
-- `docs: atualizar instruções de execução`
-
-## Integração
-
-- Não faça commit de arquivos compilados, configurações pessoais da IDE ou dados locais de execução.
-- Não altere regras de negócio sem conferir a proposta e conversar com a equipe.
-- Ao mudar uma regra, atualize os testes e a documentação relacionada.
-- Evite misturar refatorações grandes com implementação de funcionalidades.
-- Registre decisões técnicas compartilhadas na documentação do repositório.
+- `fix: corrigir validacao de prazo`
+- `docs: explicar a pasta model`
