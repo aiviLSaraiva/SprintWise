@@ -1,0 +1,26 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build outputs
+out/
+target/
+build/
+
+# IDE and editor files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local application data (keep the directory placeholder)
+data/*
+!data/.gitkeep
