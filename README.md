@@ -122,10 +122,10 @@ A proposta distribui os módulos entre três integrantes. A participação em te
 - [ ] Preparar a apresentação e o relatório.
 - [ ] Confirmar a data final de entrega.
 
-## 8. Documentação
+## 8. Organização dos arquivos
 
-A proposta acadêmica é a referência inicial para o escopo e os requisitos. Decisões técnicas posteriores e instruções de desenvolvimento devem ser registradas neste repositório.
+O código fica em `src/classes`, `src/servicos`, `src/menus` e `src/persistencia`. Os testes ficam em `testes`, os dados salvos em `data` e os documentos em `docs`. O arquivo [docs/ARQUITETURA.md](docs/ARQUITETURA.md) explica cada pasta.
 
----
+## 9. Como trabalhar no GitHub
 
-*SprintWise — Projeto final de Programação Orientada a Objetos.*
+As orientações para editar arquivos, usar as branches e enviar alterações estão em [docs/GUIA_GITHUB.md](docs/GUIA_GITHUB.md). A combinação da equipe também está resumida em [CONTRIBUTING.md](CONTRIBUTING.md).
